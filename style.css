@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 231, 231);
+    color: #5e8f51;
+    font-family: "Saira", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 2rem;
+    background-color: #490808;
+    text-align: center;
+
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2 {
+    color: #490808;
+    font-size: 1.2rem;
+}
+
+input[type="radio"], [type=checkbox]{
+    accent-color: #949975;
+}
+
+input[type=text], input[type="date"], input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #949975;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+} 
+
+input::placeholder {
+    color: #cbbba7;
+}
+
+select {
+    cursor: pointer;
+    background-color: #949975;
+    color: #490808;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+img {
+    width: 15rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+th {
+    background-color: #949975;
+    color: #490808;
+    padding: 1rem;
+}
+
+td{
+    color: #490808;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td  {
+    background-color: #490808;
+    color: #949975;
+}
+
+details{
+    background-color: #c4cc92;
+   
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #490808;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #949975;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend{
+    color: #490808;
+    padding: 0 0.5rem ;
+}
+
+textarea {
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #949975;
+    background-color: transparent;
+}
+
+button {
+    background-color: #c4cc92;
+    border: none;
+    padding: 0.8rem;
+    color: #490808;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #490808;
+    padding: 1rem;
+    text-align: center;
+}
+
+.paragrafo-footer{
+    color: #cbbba7;
+
+}
